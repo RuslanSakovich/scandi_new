@@ -1,0 +1,121 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1400px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color:#533738;
+
+  background-color: #EFE6E4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 100px;
+  /* margin: 0 auto; */
+}
+
+.main-header {
+  max-width: 1400px;
+  min-height: 715px;
+  background-color: #EFE6E4;
+  background-image: url("../img/bg-nav.jpg");
+}
+
+.site-logo {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.main-navigation {
+  /* margin: 36px auto 0; */
+  padding: 0;
+  min-width: 1200px;
+  min-height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation-item {
+  padding-right: 22px;
+}
+
+.site-navigation-item:last-child {
+  padding: 0;
+}
+
+.site-navigation-link {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color:#533738;
+}
+
+.site-navigation-link:hover, 
+.site-navigation-link:focus {
+  color:rgb(201, 70, 201);
+}
+
+.site-navigation-link:active {
+  color:rgb(206, 26, 26);
+}
+
+.header-phone {
+  color: #533738;
+}
+
+.header-phone:hover, 
+.header-phone:hover:focus {
+  color:rgb(201, 70, 201);
+}
+
+.header-phone:active {
+  color:rgb(206, 26, 26);
+}
