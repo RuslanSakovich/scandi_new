@@ -6,7 +6,7 @@ html, body {
 body {
   padding: 0;
   margin: 0;
-  max-width: 1400px;
+  min-width: 1200px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -46,9 +46,8 @@ img {
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 100px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
+  width: 1036px;
 }
 
 .main-header {
